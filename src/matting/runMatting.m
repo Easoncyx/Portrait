@@ -30,9 +30,8 @@ end
 
 alpha=solveAlphaC2F(I,consts_map,consts_vals,levels_num, ...
                     active_levels_num,thr_alpha,epsilon,win_size);
-
-figure, imshow(alpha);
-drawnow;
-[F,B]=solveFB(I,alpha);
-
-figure, imshow([F.*repmat(alpha,[1,1,3]),B.*repmat(1-alpha,[1,1,3])])
+imwrite(alpha, matte_img_name);
+% figure, imshow(alpha);
+% drawnow;
+% [F,B]=solveFB(I,alpha);
+% figure, imshow([F.*repmat(alpha,[1,1,3]),B.*repmat(1-alpha,[1,1,3])])

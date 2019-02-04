@@ -1,5 +1,14 @@
 % Input photograph
-I = imread('../img/doll.png');
+clear
+img_tag = 'peacock';
+img_name=['../img/' img_tag '.bmp'];
+scribs_img_name=['../img/' img_tag '_m.bmp'];
+matte_img_name = ['../img/' img_tag '_alpha.bmp'];
+res_img_name = ['../img/' img_tag '_res.bmp'];
+
+runMatting
+
+I = imread(img_name);
 
 I = im2double(I);
 IR = I(:,:,1);
@@ -7,7 +16,7 @@ IG = I(:,:,2);
 IB = I(:,:,3);
 
 % Joint image
-J = imread('pencils_joint_depth.png');
+J = imread(matte_img_name);
 J = im2double(J);
 BW = im2bw(J,0.5);
 
@@ -33,3 +42,4 @@ Out = cat(3,OutR,OutG,OutB);
 % Show results.
 figure, imshow(I); title('Input photograph');
 figure, imshow(Out); title('Filtered photograph');
+imwrite(Out,res_img_name)
