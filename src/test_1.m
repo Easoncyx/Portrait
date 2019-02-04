@@ -1,6 +1,6 @@
 % Input photograph
 clear
-img_tag = 'peacock';
+img_tag = 'kid2';
 img_name=['../img/' img_tag '.bmp'];
 scribs_img_name=['../img/' img_tag '_m.bmp'];
 matte_img_name = ['../img/' img_tag '_alpha.bmp'];
