@@ -35,3 +35,5 @@ Deep learning to extract feature
 Pass the centered face image through a neural network that knows how to measure features of the face. Save those 128 measurements.
 
 Looking at all the faces we’ve measured in the past, see which person has the closest measurements to our face’s measurements. That’s our match!
+
+#### Image Matting

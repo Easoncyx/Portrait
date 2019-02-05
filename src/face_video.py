@@ -23,17 +23,24 @@ while(True):
                      cv.CASCADE_DO_CANNY_PRUNING +
                      cv.CASCADE_FIND_BIGGEST_OBJECT +
                      cv.CASCADE_DO_ROUGH_SEARCH))
-    for (x,y,w,h) in faces:
-        cv.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
-        roi_gray = gray[y:y+h, x:x+w]
-        roi_color = img[y:y+h, x:x+w]
-        # eyes = eye_cascade.detectMultiScale(roi_gray)
-        # for (ex,ey,ew,eh) in eyes:
-        #     cv.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),2)
 
-    cv.imshow('img',img)
-    if cv.waitKey(20) & 0xFF == ord('q'):
-        break
+    if len(faces) >= 1:
+        tempImg = img.copy()
+        maskShape = (img.shape[0], img.shape[1], 1)
+        mask = np.full(maskShape, 0, dtype=np.uint8)
+        window_size = 23
+        for (x, y, w, h) in faces:
+            tempImg[:, :] = cv.blur(tempImg[:, :], (window_size, window_size))
+            cv.circle(img, (int((x + x + w) / 2), int((y + y + h) / 2)), int(h * 0.6), (0, 255, 0), 5)
+            cv.circle(mask, (int((x + x + w) / 2), int((y + y + h) / 2)), int(h * 0.6), (255), -1)
+        mask_inv = cv.bitwise_not(mask)
+        img_bg = cv.bitwise_and(tempImg, tempImg, mask=mask_inv)
+        img_fg = cv.bitwise_and(img, img, mask=mask)
+        dst = cv.add(img_bg, img_fg)
+
+        cv.imshow('img',dst)
+        if cv.waitKey(20) & 0xFF == ord('q'):
+            break
 
 cap.release()
 cv.destroyAllWindows()
