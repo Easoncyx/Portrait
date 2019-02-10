@@ -1,9 +1,6 @@
 import numpy as np
 import cv2 as cv
 
-
-
-
 face_cascade = cv.CascadeClassifier('../data/haarcascades/haarcascade_frontalface_alt2.xml')
 upperbody_cascade = cv.CascadeClassifier('../data/haarcascades/haarcascade_mcs_upperbody.xml')
 
