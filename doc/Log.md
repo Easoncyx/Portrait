@@ -15,6 +15,8 @@
 	3. Facial light effect adjusting
 	4. Object Segmentaion
 	5. Blur the Background
+
+	
 ## 20190206 11:00AM WEB224H
 1. If face detaction fails, do a body detaction
 2. If the difference between object is large enough, omit the smaller one.
@@ -27,11 +29,11 @@ Encode a picture using the HOG algorithm to create a simplified version of the i
 HOG, Histogram of Oriented Gradients
 
 Deep Learning based face detaction, shipped with OpenCV
-
 Single Shot Detector (SSD) framework with ResNet as the base network
 
-Haar-like
-#### Face recognition
+**(done)** Haar-like feature is what is project focused
+
+#### Face recognition (didn't achieve)
 Figure out the pose of the face by finding the main landmarks in the face. Once we find those landmarks, use them to warp the image so that the eyes and mouth are centered.
 
 Deep learning to extract feature
@@ -41,3 +43,5 @@ Pass the centered face image through a neural network that knows how to measure 
 Looking at all the faces we’ve measured in the past, see which person has the closest measurements to our face’s measurements. That’s our match!
 
 #### Image Matting
+**(done)** A Closed Form Solution to Natural Image Matting, but it's off the table beacuse its half-automatic
+
