@@ -9,10 +9,10 @@ face_cascade = cv.CascadeClassifier('../data/haarcascades/haarcascade_frontalfac
 body_cascade = cv.CascadeClassifier('../data/haarcascades/haarcascade_fullbody.xml')
 
 window_size = 23
-# img = cv.imread('../img/2.jpg')
+img = cv.imread('../img/2.jpg')
 
 while(True):
-    ret, img = cap.read()
+    # ret, img = cap.read()
     gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
     # faces = face_cascade.detectMultiScale(gray, 1.3, 5)
     body_flag = False

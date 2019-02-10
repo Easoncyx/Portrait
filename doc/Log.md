@@ -15,6 +15,10 @@
 	3. Facial light effect adjusting
 	4. Object Segmentaion
 	5. Blur the Background
+## 20190206 11:00AM WEB224H
+1. If face detaction fails, do a body detaction
+2. If the difference between object is large enough, omit the smaller one.
+
 
 # My research
 #### Face Detaction

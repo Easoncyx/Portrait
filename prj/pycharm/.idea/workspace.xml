@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a56c895-7f0f-43dc-ad2e-c9a07d5c1d26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../src/img_gather.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../doc/1-Multiresolution_object-of-interest_detection_for_i.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../doc/1-Multiresolution_object-of-interest_detection_for_i.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../doc/10.1.1.214.9150.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../doc/Gastal_Oliveira_SIGGRAPH2011_Domain_Transform.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../doc/Log.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../doc/Log.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../doc/Matting-Levin-Lischinski-Weiss-CVPR06.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../doc/viola-cvpr-01.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../src/debug_code.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/debug_code.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../src/face_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../src/face_video.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,12 +14,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../src/bg_sub.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../src/face_video.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="34" column="84" lean-forward="true" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
+            <state relative-caret-position="626">
+              <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -33,22 +40,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../src/bg_sub.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../src/img_gather.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="234">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -66,6 +61,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tempImg</find>
+    </findStrings>
     <replaceStrings>
       <replace>img</replace>
     </replaceStrings>
@@ -96,6 +94,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,7 +111,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,19 +199,19 @@
     <frame x="1680" y="-367" width="1280" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49427918" visible="true" weight="0.1558966" />
-      <window_info id="Structure" order="1" sideWeight="0.5057208" side_tool="true" visible="true" weight="0.1558966" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.493135" visible="true" weight="0.15831988" />
+      <window_info id="Structure" order="1" sideWeight="0.50686496" side_tool="true" visible="true" weight="0.15831988" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49757674" visible="true" weight="0.32872504" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49757674" weight="0.1359447" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49676898" weight="0.32872504" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.66235864" weight="0.312596" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49960285" weight="0.32949308" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5024233" side_tool="true" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.503231" side_tool="true" visible="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49960285" weight="0.32949308" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -222,12 +220,23 @@
       <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../src/face_video.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../../src/face.py" />
     <entry file="file://$PROJECT_DIR$/../../src/bg_sub.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="594">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -236,8 +245,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../src/img_gather.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="234">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -246,8 +255,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../src/face_video.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="84" lean-forward="true" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
+        <state relative-caret-position="626">
+          <caret line="87" column="28" lean-forward="true" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
