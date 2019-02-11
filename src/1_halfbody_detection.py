@@ -1,3 +1,7 @@
+# Detect face and upperbody in a video or image
+# To execute just run: python3 1_halfbody_detection.py
+# Choose input_mode: 'image' or 'video'
+# Choose display_mode: 'every_frame' or 'detected_frame'
 import numpy as np
 import cv2 as cv
 

@@ -20,6 +20,12 @@
 ## 20190206 11:00AM WEB224H
 1. If face detaction fails, do a body detaction
 2. If the difference between object is large enough, omit the smaller one.
+3. Find a upper body harr feature file to do the upperbody detection
+
+## 20190211 11:00AM WEB224H
+1. Do a background filter then save as jpeg
+2. Compare the file size of different image based on the level of blur
+3. Blur should be undetectable and object of interest should be in good shape
 
 
 # My research
