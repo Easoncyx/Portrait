@@ -16,7 +16,7 @@
 	4. Object Segmentaion
 	5. Blur the Background
 
-	
+
 ## 20190206 11:00AM WEB224H
 1. If face detaction fails, do a body detaction
 2. If the difference between object is large enough, omit the smaller one.
@@ -27,6 +27,9 @@
 2. Compare the file size of different image based on the level of blur
 3. Blur should be undetectable and object of interest should be in good shape
 
+
+# TODO
+1. write separate function to do the detection and blur
 
 # My research
 #### Face Detaction
@@ -48,6 +51,5 @@ Pass the centered face image through a neural network that knows how to measure 
 
 Looking at all the faces we’ve measured in the past, see which person has the closest measurements to our face’s measurements. That’s our match!
 
-#### Image Matting
+#### Image Matting (Object of interest)
 **(done)** A Closed Form Solution to Natural Image Matting, but it's off the table beacuse its half-automatic
-
